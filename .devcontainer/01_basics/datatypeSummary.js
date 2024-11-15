@@ -35,7 +35,41 @@ const fruitObj={
 
 const  myfunction = function(){
     console.log("hello world");
+
     
 }
 
 myfunction(); //Function
+
+
+
+
+
+//MEMORY => STACK (PRIMITIVE) ,HEAP (NON PRIMITIVE)
+
+
+let myname = "midhula"
+
+let anotherName = myname; // copy is given
+
+anotherName = "pranav"
+
+console.log(myname);
+console.log(anotherName);
+
+
+
+let user1 = {
+    username : "MIDHULA",
+    age : 20
+
+}
+
+let user2 = user1 // reference is given
+
+
+user2.age = 23;
+
+console.log(user1.age);
+console.log(user2.age);
+
